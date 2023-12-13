@@ -1,0 +1,12 @@
+.tryingApple{
+    font-family: -apple-system;
+}
+
+.item-displayed-layout {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.item-displayed-layout:hover {
+    transform: scale(1.05);
+}

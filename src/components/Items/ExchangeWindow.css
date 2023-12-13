@@ -1,0 +1,42 @@
+#userExchangeBox img {
+    width: '100px';
+    
+}
+#myExchangeBox img{
+    width: '100px';
+    
+}
+.leftLine {
+    position: absolute;
+    
+width: 612px;
+height: 0px;
+
+border: 1px solid #6E6E6E;
+transform: rotate(90deg);
+}
+.line3 {
+    border-left: 2px solid #bababa;
+}
+
+.personalizedGrid {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+.center-exchange{
+    left: calc(50% - 400px);
+}
+.window-exchange-frame{
+    height: auto;
+    width: auto;
+}
+@media (max-width:600px){
+    .center-exchange{
+        left:0px;
+    }
+    .use-overflow{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+

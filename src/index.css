@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo&family=Barlow:wght@200;300;400;600;800&family=Dosis:wght@200;300;700&family=Merriweather:ital@0;1&family=Open+Sans:wght@300;400&family=Roboto&family=Space+Mono&family=Work+Sans:wght@500;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,55 @@
+.banner{
+    /* background-color: #503B50; */
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(99% 99% at 109% 2%, #931B1BFF 0%, #073AFF00 100%),
+    radial-gradient(99% 99% at 21% 78%, #5F15A1FF 0%, #711978FF 6%, #073AFF00 100%),
+    radial-gradient(160% 154% at 711px -303px, #50106EFF 14%, #260303FF 21%, #1E0202FF 98%);
+}
+.banner > .button-subdivision > button {
+    padding-top: 8px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-subdivision{
+    width: 100px;
+    text-align: center;
+}
+.button-subdivision > button:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.topBarAccount{
+    grid-template-columns: repeat(22, minmax( 80px, 1fr));
+}
+
+.light-focus-outline:focus {
+    outline: 2px solid rgb(199, 199, 199);
+}
+.center-notification-window{
+    left: calc(50% - 150px );
+    min-height: 200px;
+    /* height: auto; */
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.background-overlay-notifications{
+    top: 0;
+    left: 0;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width:600px){
+    .center-notification-window{
+        left: calc(50% - 300px );
+        max-height: 600px;
+    }
+}
